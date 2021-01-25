@@ -22,4 +22,3 @@ ds_ten = [i.split(".mp3") for i in ds]
 # print(td)
 for i in ds:
     os.system(mypath + i)
-    playsound.playsound(i)
